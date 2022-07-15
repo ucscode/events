@@ -21,7 +21,7 @@ A touch of javascript event on PHP environment. One of my favorite class!
   // some bunch of codes
   
   events::listener("header, banner", function($data, $event) {
-    echo '<script>"Listening to "' . $event . '"</script>';
+    echo "<script>'Listening to event @ {$event} . '</script>";
   });
 ```
 
@@ -46,12 +46,12 @@ Will output
   <head>
     do this in head section
     <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
-    <title>Event listener for PHP</title> <script>"Listening to header"</script>
+    <title>Event listener for PHP</title> <script>'Listening to event @ header'</script>
   </head>
   
   <!--- comment --->
   
-  <script>"Listening to footer"</script>
+  <script>'Listening to event @ banner'</script>
 ```
 
 That's it!
