@@ -35,7 +35,8 @@ Will output
 ```
   <head>
     do this in head section
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'> <script>"This is awesome"</script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
+    <title>Event listener for PHP</title> <script>"This is awesome"</script>
   </head>
 ```
 
