@@ -5,14 +5,14 @@ A touch of javascript event on PHP environment. One of my favorite class!
 
 ## How it works
 
-``` 
-  events::listener("header", function() {
+```php 
+  events::addListener("header", function() {
     echo 'do this in the head section';
   });
   
   // some bunch of codes
   
-  events::listener("header", function($data) {
+  events::addListener("header", function($data) {
     print_r("\n<meta name='viewport' content='width=device-width, initial-scale=1.0'>");
   ?>
     <title><?php echo $data['title']; ?></title>
@@ -20,7 +20,7 @@ A touch of javascript event on PHP environment. One of my favorite class!
 
   // some bunch of codes
   
-  events::listener("header, banner", function($data, $event) {
+  events::addListener("header, banner", function($data, $event) {
     echo "<script>'Listening to event @ {$event} . '</script>";
   });
 ```
