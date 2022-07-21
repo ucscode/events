@@ -7,6 +7,8 @@
 	
 	* Author: UCSCODE
 	
+	* Author Name: Uchenna Ajah
+	
 	* Author URI: https://ucscode.com
 	
 	* Github URI: https://github.com/ucscode
