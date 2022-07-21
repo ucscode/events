@@ -27,7 +27,7 @@ A touch of javascript event on PHP environment. One of my favorite class!
 
 The listener must be called before the execution of the events. Then:
 
-```
+```php
   <head>
     <?php
       $data = array( "title" => 'Event listener for PHP' );
@@ -42,7 +42,7 @@ The listener must be called before the execution of the events. Then:
 
 Will output
 
-```
+```php
   <head>
     do this in head section
     <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
